@@ -10,9 +10,8 @@ var screenY = screen.height
 // ეკრანის X სიგანე
 var screenX = screen.width
 
-canvas.height = window.innerWidth
-canvas.width = window.innerHeight
-
+canvas.height = window.innerHeight
+canvas.width = window.innerWidth
 
 
 var ball = {
