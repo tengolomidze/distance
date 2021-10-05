@@ -10,8 +10,8 @@ var screenY = screen.height
 // ეკრანის X სიგანე
 var screenX = screen.width
 
-canvas.height = screenY * 10
-canvas.width = screenX * 10
+canvas.height = window.innerWidth
+canvas.width = window.innerHeight
 
 
 
