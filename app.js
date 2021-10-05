@@ -10,8 +10,8 @@ var screenY = screen.height
 // ეკრანის X სიგანე
 var screenX = screen.width
 
-canvas.height = screenY 
-canvas.width = screenX 
+canvas.height = screenY * 10
+canvas.width = screenX * 10
 
 if(screenX < 1100){
     document.querySelector("#mobile").style.display = "block"
