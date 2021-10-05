@@ -13,9 +13,7 @@ var screenX = screen.width
 canvas.height = screenY * 10
 canvas.width = screenX * 10
 
-if(screenX < 1100){
-    document.querySelector("#mobile").style.display = "block"
-}
+
 
 var ball = {
     x: 0,
